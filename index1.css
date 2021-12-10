@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: "Open Sans";
+
+    /*background: rgba(0,0,0,0.64);*/
+}
+.firstpage{
+    background-image: url("calls.png");
+    background-repeat: no-repeat;
+}
+.div-calls-redirect{
+    position: relative;
+    top: 1vh;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.img-calls-redirect{
+    width: 2.7vw;
+}
+.text-calls-redirect{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0.8vw;
+}
+.text-calls,.text-redirect{
+    font-weight: 500;
+    font-size: 1.7vw;
+}
+.text-calls{
+    color: white;
+}
+.text-redirect{
+    color: #E56717;
+}
+.text-calls{
+    margin-top: -1vh;
+}
+.div-menu-bars{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 85vw;
+    top: 2vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.div-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-menu{
+    color: white;
+    font-size: 1.7vw;
+}
+.div-bars{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.one{
+    border-top: 0.3vw solid white;
+    border-radius: 20px;
+    width:2.7vw;
+    margin-top: 2.5vh;
+}
+.two{
+    border-top: 0.3vw solid white;
+    border-radius: 20px;
+    width:1.8vw;
+    margin-bottom: 2vh;
+}
+.div-more-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8vw;
+
+}
+.div-contact-num{
+    display: flex;
+    flex-direction: column;
+}
+.text-get-your,.text-corporate,.text-Phone-Number,.Today\.{
+    color: white;
+    font-size: 4.5vw;
+    margin: 0;
+    position: relative;
+}
+.text-Phone-Number{
+    color: #E56717;
+    font-size: 3.24vw;
+}
+.div-service{
+    padding-top: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    width: 21vw;
+}
+.text-service{
+    color: grey;
+}
+.div-get-it-now{
+    background-color: #E56717;
+    color: white;
+    width: 18vw;
+    font-size: 2vw;
+    padding: 1%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2% 0 15% 0;
+
+}
+.hill{
+    background-color: white;
+    height: 10vh;
+    position: relative;
+    top: -10vh;
+    border-radius: 50% 50% 0 0;
+}
+.secondpage{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.text-availability{
+    font-size: 4.5vw;
+    margin: 0;
+}
+.scroll{
+    background-color: #E56717;
+    margin-top: 2%;
+    position: relative;
+    left: 1vw;
+    width: 6%;
+    height: 2vh;
+    border-radius: 64px;
+}
