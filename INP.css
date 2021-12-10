@@ -1,3 +1,28 @@
-.fontpage{
-    background-color: royalblue;
+.frontpage{
+    background-image: url("image 2Front page .png");
+    filter: blur(1.5);
+    top: -1%;
+    font-family: Open Sans;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    padding: 0;
+}
+.div-class-redirect{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 60px;
+    top: 41px;
+    width: 162px;
+    height: 60px;
+
+}
+.text-Calls{
+    color: #E56717;
+    margin: 0;
+}
+.text-redirect{
+    color: white;
+    margin: 0;
 }
