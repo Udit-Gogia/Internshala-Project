@@ -1,28 +1,38 @@
-.frontpage{
+body{
+    margin: 0;
+}
+.first{
     background-image: url("image 2Front page .png");
-    filter: blur(1.5);
-    top: -1%;
     font-family: Open Sans;
     width: 100vw;
-    margin: 0;
-    display: flex;
-    padding: 0;
+    position: absolute;
+    background-repeat: no-repeat;
 }
-.div-class-redirect{
+.rd{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 60px;
-    top: 41px;
-    width: 162px;
-    height: 60px;
-
+    justify-content: space-evenly;
 }
-.text-Calls{
-    color: #E56717;
+.img-rd{
+    width: 18%;
+}
+.div-calls-redirect{
+    display: flex;
+    position: relative;
+    top: 4.15vh;
+    left: 4.15vw;
+    width: 12vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text-calls{
     margin: 0;
-}
-.text-redirect{
     color: white;
+    font-size: 1.5vw;
+}
+
+.text-redirect{
     margin: 0;
+    color: #E56717;
+    font-size: 1.5vw;
 }
