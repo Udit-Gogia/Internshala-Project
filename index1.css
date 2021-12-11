@@ -284,3 +284,54 @@ body{
 .div-left{
     padding: 1vw 0 1vw 2vw;
 }
+.sixth-page{
+    display: flex;
+    background-color: black;
+}
+.first-half{
+    display: flex;
+    flex-direction: column;
+}
+.second-half{
+    display: flex;
+    flex-direction: column;
+
+}
+.one{
+    display: flex;
+}
+one-one{
+    display: flex;
+    flex-direction: column;
+}
+.one-two{
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    font-size: 2vw;
+    text-decoration: line-through;
+    color: rgba(255,255,255,0.6);
+    line-height: 2.3vw;
+    margin: 2vw;
+}
+.features,.support{
+    font-size: 2vw;
+    color: rgba(255,255,255,0.6);
+    line-height: 2.3vw;
+    margin : 2vw;
+}
+.one-two{
+    display: flex;
+    flex-direction: column;
+}
+.terms-of-use,.career,.about-us{
+    font-size: 2vw;
+    color: rgba(255,255,255,0.6);
+    line-height: 2vw;
+    margin: 1vw;
+}
+.terms-of-use{
+    margin: 2.5vw 1vw 1vw 1vw;
+}
+
