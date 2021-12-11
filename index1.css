@@ -196,3 +196,36 @@ body{
     font-weight: 600;
     padding: 8vh 0 5vh 0;
 }
+.fourth-page{
+    display: flex;
+    margin-top: 40vh;
+    flex-direction: row;
+    margin-bottom: 20vh;
+}
+.div-all-features-scroll{
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 8vw;
+}
+.text-all-features{
+    color: rgba(0,0,0,0.8);
+    font-size: 6vw;
+    margin: 0;
+}
+.scroll-af{
+    background-color: #E56717;
+    margin-top: 2%;
+    position: relative;
+    left: 4vw;
+    width: 11vw;
+    height: 2vh;
+    border-radius: 64px;
+}
+.img-mac {
+    float: right;
+    width: 63vw;
+    position: relative;
+    left: 0.3vw;
+}
