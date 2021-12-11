@@ -4,7 +4,7 @@ body{
 
     /*background: rgba(0,0,0,0.64);*/
 }
-.firstpage{
+.first-page{
     background-image: url("calls.png");
     background-repeat: no-repeat;
 }
@@ -58,19 +58,21 @@ body{
     padding-left: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-start;
 }
-.one{
-    border-top: 0.3vw solid white;
+
+.hr-up{
+    width: 2.7vw;
+    height: 0.7vh;
     border-radius: 20px;
-    width:2.7vw;
-    margin-top: 2.5vh;
+    background-color: white;
 }
-.two{
-    border-top: 0.3vw solid white;
+.hr-down{
+    width: 1.8vw;
     border-radius: 20px;
-    width:1.8vw;
-    margin-bottom: 2vh;
+    height:0.7vh;
+    background-color: white;
 }
 .div-more-info{
     display: flex;
@@ -119,7 +121,7 @@ body{
     top: -10vh;
     border-radius: 50% 50% 0 0;
 }
-.secondpage{
+.second-page{
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -132,10 +134,48 @@ body{
 }
 .scroll{
     background-color: #E56717;
-    margin-top: 2%;
+    margin-top: 1%;
     position: relative;
     left: 1vw;
     width: 6%;
     height: 2vh;
     border-radius: 64px;
+}
+.div-available-for{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10vh;
+}
+.div-startups,.div-small-business,.div-enterprises{
+    display: flex;
+}
+.div-contact-num{
+    display: flex;
+    flex-direction: column;
+}
+.div-img-startups,.div-img-small-business,.div-img-enterprises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-startups,.content-small-business,.content-enterprises{
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.img-startups,.img-small-business,.img-enterprises{
+    width: 4.5vw;
+}
+.text-learn-more{
+    margin:0;
+}
+.text-small-business,.text-enterprises{
+    color: rgba(0,0,0,0.64);
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    margin: 0;
 }
