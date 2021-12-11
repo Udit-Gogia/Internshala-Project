@@ -286,52 +286,133 @@ body{
 }
 .sixth-page{
     display: flex;
+    justify-content: space-around;
     background-color: black;
+    padding-top: 2vw;
 }
 .first-half{
     display: flex;
     flex-direction: column;
 }
-.second-half{
-    display: flex;
-    flex-direction: column;
 
-}
 .one{
     display: flex;
 }
-one-one{
+.one-one,.one-two{
     display: flex;
     flex-direction: column;
 }
 .one-two{
-    display: flex;
-    flex-direction: column;
+    padding-left: 4vw;
 }
 .home{
+    font-size: 1.7vw;
+    /*text-decoration: line-through;*/
+    color: rgba(255,255,255,0.6);
+    line-height: 2.3vw;
+}
+.features,.support,.terms-of-use,.about-us,.career{
+    font-size: 1.7vw;
+    color: rgba(255,255,255,0.6);
+    line-height: 2.3vw;
+
+}
+.contact-email,.contact-call{
+    color: white;
     font-size: 2vw;
+    line-height: 3vw;
+    font-weight: 300;
+}
+.hr-contact{
+    position: relative;
+    left: 6vw;
+    border-width: 0;
+    background-color: rgba(255,255,255,0.7);
+    height: 0.1vh;
+    width: 25vw;
+}
+.text-privacy-policy,.text-terms-of-use{
+    color: rgba(255,255,255,0.6);
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+.three{
+    display: flex;
+    align-items: flex-start;
+}
+.three-two{
+    padding-left: 5vw;
+}
+.four{
+    display: flex;
+    text-align: center;
+}
+.text-copyright{
+    color: rgba(255,255,255,0.6);
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 3vh 0 0 0;
+}
+.second-half{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.second-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-why-be-shy{
+    color: white;
     text-decoration: line-through;
-    color: rgba(255,255,255,0.6);
-    line-height: 2.3vw;
-    margin: 2vw;
+    text-decoration-thickness: 2px;
+    line-height: 5.8vw;
+    font-size: 4.5vw;
+    font-weight: 200;
+    margin: 0;
 }
-.features,.support{
-    font-size: 2vw;
-    color: rgba(255,255,255,0.6);
-    line-height: 2.3vw;
-    margin : 2vw;
+.text-say-hi{
+    color: white;
+    font-size: 6vw;
+    margin: 0;
+    font-weight: 500;
 }
-.one-two{
+#dot{
+    color: #E56717;
+    font-size: 5vw;
+    margin: 0;
+}
+.second-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 8vh;
+}
+.text-linkedin{
+    color: white;
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    padding-right: 2vw;
+    font-weight: 300;
+    margin: 0;
+}
+.img-linkedin{
+    margin: 0;
+    width: 3vw;
+
+}
+.second-two-one,.second-two-two{
+    display: flex;
+    flex-direction: row;
+}
+.second-two-two{
+    padding-top: 2vh;
+}
+.second-three{
     display: flex;
     flex-direction: column;
 }
-.terms-of-use,.career,.about-us{
-    font-size: 2vw;
-    color: rgba(255,255,255,0.6);
-    line-height: 2vw;
-    margin: 1vw;
-}
-.terms-of-use{
-    margin: 2.5vw 1vw 1vw 1vw;
-}
-
