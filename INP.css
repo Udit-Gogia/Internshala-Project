@@ -1,116 +1,35 @@
-body{
-    margin: 0;
-}
-.first{
-    background-image: url("image 2Front page .png");
-    font-family: "Open Sans";
-    width: 100vw;
-    position: absolute;
+.third-page{
+    background-image: url("page3.svg");
     background-repeat: no-repeat;
+    font-family: "Open Sans";
     display: flex;
-    flex-direction: row;
 }
-.rd{
+.third-one{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
-.img-rd{
-    width: 18%;
-}
-.div-calls-redirect{
+.third-one-one,.third-one-two{
     display: flex;
-    position: relative;
-    top: 4.15vh;
-    left: 4.15vw;
-    width: 12vw;
-    flex-direction: row;
-    justify-content: space-evenly;
+    padding: 7vh;
 }
-.text-calls{
-    margin: 0;
+.third-one-one-one,.third-one-one-two,.third-one-two-one,.third-one-two-two{
+    padding: 5vh;
+}
+.text-select-country,.text-area-code{
     color: white;
-    font-size: 1.5vw;
+    font-weight: 300;
+    font-size: 3vw;
 }
-
-.text-redirect{
-    margin: 0;
+#area-code,#country{
+    padding: 1vw;
+    margin-top: 5vh;
+    background: rgba(0,0,0,0.6);
+    border-width: 0;
+    border-radius: 50px;
+    font-size: 2vw;
+    text-align: center;
     color: #E56717;
-    font-size: 1.5vw;
 }
-/*.div-menu{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    position: relative;*/
-/*    top: 2.15vh;*/
-/*}*/
-/*.text-menu{*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    position: relative;*/
-/*    font-size: 1.3vw;*/
-/*    color: white;*/
-/*    left: 75.7vw;*/
-/*    font-weight: 300;*/
-/*}*/
-/*.bars{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content:  center;*/
-/*    top: 7vh;*/
-/*    left: 74.5vw;*/
-/*}*/
-/*.up{*/
-/*    border-top: 0.3vw solid black;*/
-/*    border-radius: 40px;*/
-/*    width: 2.7vw;*/
-/*    position: relative;*/
-/*    padding-bottom: 10%;*/
-/*    margin-left: 20%;*/
-/*}*/
-/*.down{*/
-/*    border-top: 0.3vw solid black;*/
-/*    border-radius: 20px;*/
-/*    width:1.8vw;*/
-/*    position: relative;*/
-/*    margin-left: 20%;*/
-/*}*/
-.div-menu{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    top: 2.15vh;
+#country{
+    margin-left: 2vw;
 }
-.menu{
-    position: relative;
-    font-size: 1.6vw ;
-    color: white;
-    left: 85vw;
-}
-.bars{
-    position: relative;
-    left: 85.5vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5%;
-}
-.up{
-    border-top: 0.3vw solid white;
-    border-radius: 20px;
-    width: 2.7vw;
-    position: relative;
-    margin-bottom: 0.5vh;
-}
-.down{
-    border-bottom: 0.3vw solid white;
-    width: 1.8vw;
-    position: relative;
-    border-radius: 20px;
-    margin-top: 0.2vh;
-}
-.content-startups{
-    line-height: 4vh;
-}
-
-

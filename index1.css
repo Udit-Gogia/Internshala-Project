@@ -288,7 +288,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: black;
-    padding-top: 2vw;
+    padding-top: 4vw;
 }
 .first-half{
     display: flex;
@@ -310,6 +310,10 @@ body{
     /*text-decoration: line-through;*/
     color: rgba(255,255,255,0.6);
     line-height: 2.3vw;
+}
+.two{
+    padding-top: 4vh;
+    padding-bottom: 2vh;
 }
 .features,.support,.terms-of-use,.about-us,.career{
     font-size: 1.7vw;
@@ -339,6 +343,8 @@ body{
 .three{
     display: flex;
     align-items: flex-start;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 .three-two{
     padding-left: 5vw;
@@ -415,4 +421,32 @@ body{
 .second-three{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    padding-top: 5vh;
+}
+.second-three-two{
+    display: contents;
+}
+.img-haspr{
+    margin: 0;
+    width: 4vw;
+}
+.text-haspr{
+    font-size:2vw;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+.text-more-haspr{
+    color: white;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+.email-haspr{
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 1vh;
 }
