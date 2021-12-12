@@ -1,13 +1,19 @@
+body{
+    margin: 0;
+}
 .third-page{
-    background-image: url("page3.svg");
+    margin-top: -15px;
+    background-image: url("p3.png");
     background-repeat: no-repeat;
     font-family: "Open Sans";
     display: flex;
 }
 .third-one{
     display: flex;
+    background: rgba(0,0,0,0.6);
     flex-direction: column;
 }
+
 .third-one-one,.third-one-two{
     display: flex;
     padding: 7vh;
@@ -32,4 +38,14 @@
 }
 #country{
     margin-left: 2vw;
+}
+#search{
+    display: flex;
+    padding: 1vw;
+    border-radius: 50px;
+    background-color:#E56717;
+}
+#text-search{
+    color: white;
+    font-size: 2vw;
 }
