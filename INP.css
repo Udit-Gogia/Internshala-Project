@@ -1,51 +1,77 @@
-body{
-    margin: 0;
-}
+
 .third-page{
-    margin-top: -15px;
-    background-image: url("p3.png");
+    background-image: url(p3.png);
     background-repeat: no-repeat;
+    margin: -1vw -0.5vw 0 -1vw;
     font-family: "Open Sans";
-    display: flex;
 }
-.third-one{
+.third-page-pro{
+    background: rgba(0,0,0,0.4);
+    display: flex;flex-direction: row;
+    padding: 10vw;
+}
+.pro-one{
     display: flex;
-    background: rgba(0,0,0,0.6);
     flex-direction: column;
 }
-
-.third-one-one,.third-one-two{
+.pro-two{
     display: flex;
-    padding: 7vh;
+    align-items: center;
+    padding-left: 15vw;
 }
-.third-one-one-one,.third-one-one-two,.third-one-two-one,.third-one-two-two{
-    padding: 5vh;
+.pro-one-one,.pro-one-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-.text-select-country,.text-area-code{
+.text-search-country,.text-area-code{
+    font-size: 3vw;
     color: white;
     font-weight: 300;
-    font-size: 3vw;
 }
-#area-code,#country{
-    padding: 1vw;
-    margin-top: 5vh;
-    background: rgba(0,0,0,0.6);
-    border-width: 0;
+#country,#area-code{
+    background: rgba(0,0,0,0.5);
     border-radius: 50px;
-    font-size: 2vw;
-    text-align: center;
     color: #E56717;
+    font-size: 1.5vw;
+    height: 4vw;
+    border-width: 0;
+    text-align: center;
+    margin-left: 5vw;
 }
-#country{
-    margin-left: 2vw;
+#country:focus,#area-code:focus{
+    border: 1px solid #E56717;
+    outline: none;
 }
-#search{
-    display: flex;
-    padding: 1vw;
-    border-radius: 50px;
-    background-color:#E56717;
+#submit{
+    background-color: #E56717;
+    border-radius: 30px;
+    border-width: 0;
+    text-align: center;
 }
-#text-search{
+.text-submit{
     color: white;
     font-size: 2vw;
+    padding-left: 2vw;
+}
+.button-content{
+    display: flex;
+    padding: 1vh 3vw 0.5vw 3vw;
+    margin: 0;
+}
+.imgs-search{
+    display: flex;
+    position: relative;
+    top: 1.3vw;
+}
+.glass{
+    position: absolute;
+    width: 2.2vw;
+}
+.face{
+    position: relative;
+    top: -1.8vw;
+    left: 0.7vw;
+    width: 0.7vw;
 }
