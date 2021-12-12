@@ -246,6 +246,9 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+input[type=number] {
+    -moz-appearance: textfield;
+}
 #country,#area-code{
     background: rgba(0,0,0,0.5);
     border-radius: 50px;
