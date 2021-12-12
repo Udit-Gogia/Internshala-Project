@@ -113,7 +113,11 @@ body{
     text-align: center;
     border-radius: 30px;
     margin: 2% 0 15% 0;
-
+    transition: transform 1s;
+}
+.div-get-it-now:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .hill{
     background-color: white;
@@ -142,6 +146,7 @@ body{
     left: 1vw;
     width: 6%;
     height: 2vh;
+    border-width: 0;
     border-radius: 64px;
 }
 
@@ -175,6 +180,13 @@ body{
 }
 .text-learn-more{
     margin:0;
+    transition : color 1s;
+}
+.text-learn-more:hover{
+    color: #E56717;
+    text-decoration: underline;
+    cursor: pointer;
+
 }
 .text-small-business,.text-enterprises{
     color: rgba(0,0,0,0.64);
@@ -229,6 +241,11 @@ body{
     color: white;
     font-weight: 300;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 #country,#area-code{
     background: rgba(0,0,0,0.5);
     border-radius: 50px;
@@ -237,6 +254,7 @@ body{
     height: 4vw;
     border-width: 0;
     text-align: center;
+    text-transform: uppercase;
     margin-left: 5vw;
 }
 #country:focus,#area-code:focus{
@@ -248,6 +266,10 @@ body{
     border-radius: 30px;
     border-width: 0;
     text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#submit:hover{
+    cursor: pointer;
 }
 .text-submit{
     color: white;
@@ -259,7 +281,7 @@ body{
     padding: 1vh 3vw 0.5vw 3vw;
     margin: 0;
 }
-.imgs-search{
+.images-search{
     display: flex;
     position: relative;
     top: 1.3vw;
@@ -285,6 +307,7 @@ body{
     display: flex;
     flex-direction: column;
     transform: rotate(-90deg);
+    border-width: 0;
     position: relative;
     left: 8vw;
 }
@@ -295,6 +318,7 @@ body{
 }
 .scroll-af{
     background-color: #E56717;
+    border-width: 0;
     margin-top: 2%;
     position: relative;
     left: 4vw;
@@ -324,6 +348,7 @@ body{
 }
 .scroll-customers{
     background-color: #E56717;
+    border-width: 0;
     position: relative;
     width: 8vw;
     height: 1vh;
