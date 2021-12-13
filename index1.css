@@ -554,7 +554,7 @@ input[type=number] {
     margin: 0;
     padding-bottom: 1vh;
 }
-@media screen and (min-width: 440px) and (max-width: 1000px){
+@media screen and (min-width: 440px) and (max-width: 770px){
 
     .hill{
         height: 0vh;
@@ -574,8 +574,7 @@ input[type=number] {
         height: 0;
     }
     .first-page{
-        background-image: url("calls.png");
-        width: 1000px;
+        width: 100vw;
     }
     .div-contact-num{
         padding-top: 15px;
