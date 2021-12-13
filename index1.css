@@ -557,14 +557,17 @@ input[type=number] {
 @media screen and (min-width: 440px) and (max-width: 1000px){
 
     .hill{
-        /*background-color: black;*/
         height: 0vh;
+    }
+    .second-page{
+        padding-top: 40px;
     }
     .text-calls,.text-redirect{
         font-size: 40px;
     }
-    .third-page{
+    .fourth-page{
         margin-top: 50px;
+        margin-bottom: 50px;
     }
     .scroll-customers{
         width: 0;
@@ -572,7 +575,10 @@ input[type=number] {
     }
     .first-page{
         background-image: url("calls.png");
-        width: 900px;
+        width: 1000px;
+    }
+    .div-contact-num{
+        padding-top: 15px;
     }
 
 }
