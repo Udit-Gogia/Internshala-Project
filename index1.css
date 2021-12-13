@@ -554,7 +554,10 @@ input[type=number] {
     margin: 0;
     padding-bottom: 1vh;
 }
-@media screen and (max-width: 648px){
+@media screen and (min-width: 1100px){
+    body{
+        background: black;
+    }
     .img-calls-redirect{
         width: 30px;
     }
