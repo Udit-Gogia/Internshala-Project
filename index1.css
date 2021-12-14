@@ -578,6 +578,10 @@ input[type=number] {
         width: 10vw;
     }
 
+    .hill{
+        height: 0;
+        width: 0;
+    }
     .text-calls, .text-redirect {
         font-size: 40px;
     }
