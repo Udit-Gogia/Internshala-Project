@@ -553,10 +553,7 @@ input[type=number] {
     font-weight: 500;
     margin: 0;
 }
-.hill{
-    height: 0vh;
-    padding-bottom: 1vh;
-}
+
 @media screen and (min-width: 440px) and (max-width: 1200px) {
 
 
