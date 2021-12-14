@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f139830c-de89-4ddc-8959-01e2f98088f0" name="Changes" comment="fixed hover effects">
+    <list default="true" id="f139830c-de89-4ddc-8959-01e2f98088f0" name="Changes" comment="fixed bg img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index1.css" beforeDir="false" afterPath="$PROJECT_DIR$/index1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,8 @@
       <workItem from="1639241428062" duration="8536000" />
       <workItem from="1639297358962" duration="2876000" />
       <workItem from="1639301205564" duration="9681000" />
-      <workItem from="1639401059305" duration="3133000" />
+      <workItem from="1639401059305" duration="3271000" />
+      <workItem from="1639496086762" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="fixed hover effects">
       <created>1639314240753</created>
@@ -74,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639314240753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed bg img">
+      <created>1639404243800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639404243800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed hover effects" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed hover effects" />
+    <MESSAGE value="fixed bg img" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bg img" />
   </component>
 </project>
